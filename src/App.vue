@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <SwaggerUI />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SwaggerUI from './components/SwaggerUI';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SwaggerUI
   }
 }
 </script>
