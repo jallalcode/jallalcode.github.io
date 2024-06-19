@@ -11,7 +11,7 @@
     name: 'SwaggerUI',
     mounted() {
       SwaggerUI({
-        url: 'http://89.116.52.104:8443/api-docs',
+        url: 'https://89.116.52.104:8443/api-docs',
         dom_id: '#swagger-ui',
       });
     },
